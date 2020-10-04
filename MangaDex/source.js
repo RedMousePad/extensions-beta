@@ -2679,11 +2679,11 @@ class MangaDex extends paperback_extensions_common_1.Source {
         super(cheerio);
     }
     get version() { return '2.0.0'; }
-    get name() { return 'MangaDex'; }
+    get name() { return 'MangaDex Bypassed'; }
     get icon() { return 'icon.png'; }
-    get author() { return 'Faizan Durrani'; }
-    get authorWebsite() { return 'https://github.com/FaizanDurrani'; }
-    get description() { return 'Extension that pulls manga from MangaDex, includes Advanced Search and Updated manga fetching'; }
+    get author() { return 'RedMousePad'; }
+    get authorWebsite() { return 'https://github.com/RedMousePad'; }
+    get description() { return 'MangaDex repo with licensed manga filter bypassed'; }
     get hentaiSource() { return false; }
     get websiteBaseURL() { return 'https://mangadex.org'; }
     get rateLimit() { return 1; }
