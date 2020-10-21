@@ -6,7 +6,7 @@ export class MangaDex extends Source {
     super(cheerio)
   }
 
-  get version(): string { return '2.0.0' }
+  get version(): string { return '2.0.1' }
   get name(): string { return 'MangaDex Bypassed' }
   get icon(): string { return 'icon.png' }
   get author(): string { return 'RedMousePad' }
