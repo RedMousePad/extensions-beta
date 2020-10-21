@@ -2783,9 +2783,8 @@ class MangaDex extends paperback_extensions_common_1.Source {
     }
     getChapterDetailsRequest(mangaId, chapId) {
         return createRequestObject({
-            url: `${MD_CHAPTER_API}/${chapId}`,
-            method: 'GET',
-            incognito: true
+            url: `${MD_CHAPTER_API}/${chapId}?mark_read=0`,
+            method: 'GET'
         });
     }
     getChapterDetails(data, metadata) {
