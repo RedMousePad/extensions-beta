@@ -2678,7 +2678,7 @@ class MangaDex extends paperback_extensions_common_1.Source {
     constructor(cheerio) {
         super(cheerio);
     }
-    get version() { return '2.0.0'; }
+    get version() { return '2.0.1'; }
     get name() { return 'MangaDex Bypassed'; }
     get icon() { return 'icon.png'; }
     get author() { return 'RedMousePad'; }
