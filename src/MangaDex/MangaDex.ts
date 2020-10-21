@@ -120,9 +120,8 @@ export class MangaDex extends Source {
 
   getChapterDetailsRequest(mangaId: string, chapId: string): Request {
     return createRequestObject({
-      url: `${MD_CHAPTER_API}/${chapId}`,
-      method: 'GET',
-      incognito: true
+      url: `${MD_CHAPTER_API}/${chapId}?mark_read=0`,
+      method: 'GET'
     })
   }
 
